@@ -13,18 +13,26 @@
 		B29BED6B1BBE1EE500563861 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B29BED691BBE1EE500563861 /* Main.storyboard */; };
 		B29BED6D1BBE1EE500563861 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B29BED6C1BBE1EE500563861 /* Images.xcassets */; };
 		B29BED701BBE1EE500563861 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B29BED6E1BBE1EE500563861 /* LaunchScreen.xib */; };
-		B29BED7C1BBE1EE500563861 /* MemeMachineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B29BED7B1BBE1EE500563861 /* MemeMachineTests.m */; };
+		B29BED8A1BBE28AB00563861 /* NSDictionary+Meme.m in Sources */ = {isa = PBXBuildFile; fileRef = B29BED891BBE28AB00563861 /* NSDictionary+Meme.m */; };
+		B2D8D7671BC4443F0066DD17 /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D8D7561BC4443F0066DD17 /* Icon-40.png */; settings = {ASSET_TAGS = (); }; };
+		B2D8D7681BC4443F0066DD17 /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D8D7571BC4443F0066DD17 /* Icon-40@2x.png */; settings = {ASSET_TAGS = (); }; };
+		B2D8D7691BC4443F0066DD17 /* Icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D8D7581BC4443F0066DD17 /* Icon-40@3x.png */; settings = {ASSET_TAGS = (); }; };
+		B2D8D76A1BC4443F0066DD17 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D8D7591BC4443F0066DD17 /* Icon-60@2x.png */; settings = {ASSET_TAGS = (); }; };
+		B2D8D76B1BC4443F0066DD17 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D8D75A1BC4443F0066DD17 /* Icon-60@3x.png */; settings = {ASSET_TAGS = (); }; };
+		B2D8D76C1BC4443F0066DD17 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D8D75B1BC4443F0066DD17 /* Icon-76.png */; settings = {ASSET_TAGS = (); }; };
+		B2D8D76D1BC4443F0066DD17 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D8D75C1BC4443F0066DD17 /* Icon-76@2x.png */; settings = {ASSET_TAGS = (); }; };
+		B2D8D76E1BC4443F0066DD17 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D8D75D1BC4443F0066DD17 /* Icon-Small.png */; settings = {ASSET_TAGS = (); }; };
+		B2D8D76F1BC4443F0066DD17 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D8D75E1BC4443F0066DD17 /* Icon-Small@2x.png */; settings = {ASSET_TAGS = (); }; };
+		B2D8D7701BC4443F0066DD17 /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D8D75F1BC4443F0066DD17 /* Icon-Small@3x.png */; settings = {ASSET_TAGS = (); }; };
+		B2D8D7711BC4443F0066DD17 /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D8D7601BC4443F0066DD17 /* Icon-60.png */; settings = {ASSET_TAGS = (); }; };
+		B2D8D7721BC4443F0066DD17 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D8D7611BC4443F0066DD17 /* Icon-72.png */; settings = {ASSET_TAGS = (); }; };
+		B2D8D7731BC4443F0066DD17 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D8D7621BC4443F0066DD17 /* Icon-72@2x.png */; settings = {ASSET_TAGS = (); }; };
+		B2D8D7741BC4443F0066DD17 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D8D7631BC4443F0066DD17 /* Icon-Small-50.png */; settings = {ASSET_TAGS = (); }; };
+		B2D8D7751BC4443F0066DD17 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D8D7641BC4443F0066DD17 /* Icon-Small-50@2x.png */; settings = {ASSET_TAGS = (); }; };
+		B2D8D7761BC4443F0066DD17 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D8D7651BC4443F0066DD17 /* Icon.png */; settings = {ASSET_TAGS = (); }; };
+		B2D8D7771BC4443F0066DD17 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D8D7661BC4443F0066DD17 /* Icon@2x.png */; settings = {ASSET_TAGS = (); }; };
+		B2D8D77B1BC447220066DD17 /* smiley.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2D8D77A1BC447220066DD17 /* smiley.jpg */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		B29BED761BBE1EE500563861 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B29BED541BBE1EE500563861 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B29BED5B1BBE1EE500563861;
-			remoteInfo = MemeMachine;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B29BED5C1BBE1EE500563861 /* MemeMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemeMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,20 +45,32 @@
 		B29BED6A1BBE1EE500563861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B29BED6C1BBE1EE500563861 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B29BED6F1BBE1EE500563861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		B29BED751BBE1EE500563861 /* MemeMachineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemeMachineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B29BED7A1BBE1EE500563861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B29BED7B1BBE1EE500563861 /* MemeMachineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemeMachineTests.m; sourceTree = "<group>"; };
+		B29BED881BBE28AB00563861 /* NSDictionary+Meme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Meme.h"; sourceTree = "<group>"; };
+		B29BED891BBE28AB00563861 /* NSDictionary+Meme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Meme.m"; sourceTree = "<group>"; };
+		B2D8D7561BC4443F0066DD17 /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
+		B2D8D7571BC4443F0066DD17 /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
+		B2D8D7581BC4443F0066DD17 /* Icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@3x.png"; sourceTree = "<group>"; };
+		B2D8D7591BC4443F0066DD17 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		B2D8D75A1BC4443F0066DD17 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		B2D8D75B1BC4443F0066DD17 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		B2D8D75C1BC4443F0066DD17 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		B2D8D75D1BC4443F0066DD17 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		B2D8D75E1BC4443F0066DD17 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		B2D8D75F1BC4443F0066DD17 /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@3x.png"; sourceTree = "<group>"; };
+		B2D8D7601BC4443F0066DD17 /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
+		B2D8D7611BC4443F0066DD17 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		B2D8D7621BC4443F0066DD17 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		B2D8D7631BC4443F0066DD17 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		B2D8D7641BC4443F0066DD17 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		B2D8D7651BC4443F0066DD17 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		B2D8D7661BC4443F0066DD17 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		B2D8D77A1BC447220066DD17 /* smiley.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smiley.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B29BED591BBE1EE500563861 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B29BED721BBE1EE500563861 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -73,7 +93,6 @@
 			isa = PBXGroup;
 			children = (
 				B29BED5C1BBE1EE500563861 /* MemeMachine.app */,
-				B29BED751BBE1EE500563861 /* MemeMachineTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,6 +104,8 @@
 				B29BED641BBE1EE500563861 /* AppDelegate.m */,
 				B29BED661BBE1EE500563861 /* ViewController.h */,
 				B29BED671BBE1EE500563861 /* ViewController.m */,
+				B29BED881BBE28AB00563861 /* NSDictionary+Meme.h */,
+				B29BED891BBE28AB00563861 /* NSDictionary+Meme.m */,
 				B29BED691BBE1EE500563861 /* Main.storyboard */,
 				B29BED6C1BBE1EE500563861 /* Images.xcassets */,
 				B29BED6E1BBE1EE500563861 /* LaunchScreen.xib */,
@@ -96,6 +117,24 @@
 		B29BED5F1BBE1EE500563861 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B2D8D77A1BC447220066DD17 /* smiley.jpg */,
+				B2D8D7561BC4443F0066DD17 /* Icon-40.png */,
+				B2D8D7571BC4443F0066DD17 /* Icon-40@2x.png */,
+				B2D8D7581BC4443F0066DD17 /* Icon-40@3x.png */,
+				B2D8D7591BC4443F0066DD17 /* Icon-60@2x.png */,
+				B2D8D75A1BC4443F0066DD17 /* Icon-60@3x.png */,
+				B2D8D75B1BC4443F0066DD17 /* Icon-76.png */,
+				B2D8D75C1BC4443F0066DD17 /* Icon-76@2x.png */,
+				B2D8D75D1BC4443F0066DD17 /* Icon-Small.png */,
+				B2D8D75E1BC4443F0066DD17 /* Icon-Small@2x.png */,
+				B2D8D75F1BC4443F0066DD17 /* Icon-Small@3x.png */,
+				B2D8D7601BC4443F0066DD17 /* Icon-60.png */,
+				B2D8D7611BC4443F0066DD17 /* Icon-72.png */,
+				B2D8D7621BC4443F0066DD17 /* Icon-72@2x.png */,
+				B2D8D7631BC4443F0066DD17 /* Icon-Small-50.png */,
+				B2D8D7641BC4443F0066DD17 /* Icon-Small-50@2x.png */,
+				B2D8D7651BC4443F0066DD17 /* Icon.png */,
+				B2D8D7661BC4443F0066DD17 /* Icon@2x.png */,
 				B29BED601BBE1EE500563861 /* Info.plist */,
 				B29BED611BBE1EE500563861 /* main.m */,
 			);
@@ -139,24 +178,6 @@
 			productReference = B29BED5C1BBE1EE500563861 /* MemeMachine.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B29BED741BBE1EE500563861 /* MemeMachineTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B29BED821BBE1EE500563861 /* Build configuration list for PBXNativeTarget "MemeMachineTests" */;
-			buildPhases = (
-				B29BED711BBE1EE500563861 /* Sources */,
-				B29BED721BBE1EE500563861 /* Frameworks */,
-				B29BED731BBE1EE500563861 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B29BED771BBE1EE500563861 /* PBXTargetDependency */,
-			);
-			name = MemeMachineTests;
-			productName = MemeMachineTests;
-			productReference = B29BED751BBE1EE500563861 /* MemeMachineTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,10 +189,7 @@
 				TargetAttributes = {
 					B29BED5B1BBE1EE500563861 = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					B29BED741BBE1EE500563861 = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = B29BED5B1BBE1EE500563861;
+						DevelopmentTeam = 6883GS59DP;
 					};
 				};
 			};
@@ -189,7 +207,6 @@
 			projectRoot = "";
 			targets = (
 				B29BED5B1BBE1EE500563861 /* MemeMachine */,
-				B29BED741BBE1EE500563861 /* MemeMachineTests */,
 			);
 		};
 /* End PBXProject section */
@@ -201,14 +218,25 @@
 			files = (
 				B29BED6B1BBE1EE500563861 /* Main.storyboard in Resources */,
 				B29BED701BBE1EE500563861 /* LaunchScreen.xib in Resources */,
+				B2D8D7741BC4443F0066DD17 /* Icon-Small-50.png in Resources */,
+				B2D8D7681BC4443F0066DD17 /* Icon-40@2x.png in Resources */,
 				B29BED6D1BBE1EE500563861 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B29BED731BBE1EE500563861 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				B2D8D7731BC4443F0066DD17 /* Icon-72@2x.png in Resources */,
+				B2D8D7711BC4443F0066DD17 /* Icon-60.png in Resources */,
+				B2D8D7751BC4443F0066DD17 /* Icon-Small-50@2x.png in Resources */,
+				B2D8D76F1BC4443F0066DD17 /* Icon-Small@2x.png in Resources */,
+				B2D8D76D1BC4443F0066DD17 /* Icon-76@2x.png in Resources */,
+				B2D8D7691BC4443F0066DD17 /* Icon-40@3x.png in Resources */,
+				B2D8D7761BC4443F0066DD17 /* Icon.png in Resources */,
+				B2D8D76B1BC4443F0066DD17 /* Icon-60@3x.png in Resources */,
+				B2D8D76E1BC4443F0066DD17 /* Icon-Small.png in Resources */,
+				B2D8D76C1BC4443F0066DD17 /* Icon-76.png in Resources */,
+				B2D8D7771BC4443F0066DD17 /* Icon@2x.png in Resources */,
+				B2D8D7671BC4443F0066DD17 /* Icon-40.png in Resources */,
+				B2D8D7721BC4443F0066DD17 /* Icon-72.png in Resources */,
+				B2D8D77B1BC447220066DD17 /* smiley.jpg in Resources */,
+				B2D8D7701BC4443F0066DD17 /* Icon-Small@3x.png in Resources */,
+				B2D8D76A1BC4443F0066DD17 /* Icon-60@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,29 +247,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B29BED8A1BBE28AB00563861 /* NSDictionary+Meme.m in Sources */,
 				B29BED681BBE1EE500563861 /* ViewController.m in Sources */,
 				B29BED651BBE1EE500563861 /* AppDelegate.m in Sources */,
 				B29BED621BBE1EE500563861 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B29BED711BBE1EE500563861 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B29BED7C1BBE1EE500563861 /* MemeMachineTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B29BED771BBE1EE500563861 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B29BED5B1BBE1EE500563861 /* MemeMachine */;
-			targetProxy = B29BED761BBE1EE500563861 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B29BED691BBE1EE500563861 /* Main.storyboard */ = {
@@ -349,6 +362,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MemeMachine/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -359,43 +373,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MemeMachine/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		B29BED831BBE1EE500563861 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MemeMachineTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MemeMachine.app/MemeMachine";
-			};
-			name = Debug;
-		};
-		B29BED841BBE1EE500563861 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MemeMachineTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MemeMachine.app/MemeMachine";
 			};
 			name = Release;
 		};
@@ -418,14 +399,7 @@
 				B29BED811BBE1EE500563861 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		B29BED821BBE1EE500563861 /* Build configuration list for PBXNativeTarget "MemeMachineTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B29BED831BBE1EE500563861 /* Debug */,
-				B29BED841BBE1EE500563861 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

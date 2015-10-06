@@ -8,18 +8,30 @@
 
 #import <UIKit/UIKit.h>
 #import "NSDictionary+Meme.h"
-#import "UIView+draggable.h"
 
-@interface ViewController : UIViewController<UICollectionViewDataSource, UICollectionViewDelegate, UIGestureRecognizerDelegate> {
+@interface ViewController : UIViewController<UICollectionViewDataSource, UICollectionViewDelegate, UIGestureRecognizerDelegate, UITextFieldDelegate> {
+    Meme *currentMeme;
     NSMutableArray *memes;
-    NSMutableArray *captions;
+    
     BOOL animating;
-    CGPoint offset;
+    BOOL saving;
+    
+    UIImage *clearImage;
+    UILabel *currentLabel;
+    UIAlertController *actionSheet;
 }
 
-@property (strong, nonatomic) IBOutlet UITapGestureRecognizer *gestureRecognizer;
 @property (strong, nonatomic) IBOutlet UIImageView *memeView;
 @property (strong, nonatomic) IBOutlet UICollectionView *memeCollection;
+@property (strong, nonatomic) IBOutlet UIView *container;
+@property (strong, nonatomic) IBOutlet UILabel *topLabel;
+@property (strong, nonatomic) IBOutlet UILabel *botLabel;
+@property (strong, nonatomic) IBOutlet UITextField *textField;
+@property (strong, nonatomic) IBOutlet UINavigationBar *navigationBar;
+@property (strong, nonatomic) IBOutlet UIImageView *popUpView;
+@property (strong, nonatomic) IBOutlet UIView *popUpBackdrop;
+@property (strong, nonatomic) IBOutlet UIImageView *renderView;
+@property (strong, nonatomic) IBOutlet UIActivityIndicatorView *spinner;
 
 @end
 

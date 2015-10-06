@@ -33,7 +33,7 @@
 }
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
+    [super viewDidLoad]; 
     
     CGSize size = CGSizeMake(1, 1);
     UIGraphicsBeginImageContextWithOptions(size, YES, 0);
